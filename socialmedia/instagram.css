@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+}
+
+body {
+    background-color: #fdfdfd;
+}
+
+nav{
+    border-bottom: 2px solid #8a8a8a;
+    background-color: white;
+    position: sticky;
+}
+
+.content-holder {
+    margin-right: 20%;
+    margin-left: 20%;
+    width: 60%;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    margin-left: auto;
+    max-width: auto;
+}
+  
+.card:hover {
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.posts{
+    width: 40%;
+}
+
+  .container {
+    padding: 2px 16px;
+  }
+
+.logo{
+    width: 5%;
+    margin-right:10em;
+}
+
+.icons{
+    margin-left:10em;
+}
+
+._8-yf5{
+    margin-left:5px;
+    margin-right:5px;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.user-stories {
+    height: 70px;
+    flex-direction: column;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 70px 70px;
+    grid-gap: 10px;
+    grid-auto-rows: minmax(10px, auto);
+}
+
+.post-from-user {
+    scroll-behavior: smooth;
+    grid-row: 1;
+    max-width: 70px;
+}
+
+.imageUsers {
+    height: 90%;
+    border-radius: 50%;
+    border: 2px solid rgb(211, 1, 1);
+}
